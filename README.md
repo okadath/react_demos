@@ -56,7 +56,26 @@ esto no quedo:
 
 autocorrect en searchinput false o true
 
-pagina 45
+errores a la hora de crear componentes 
+
+	yarn cache clean
+
+a la hoa de pasar componentes y eventos, bindear:
+
+	handleChangeText = newLocation => {//code}
+
+props are immutable and are always “owned” by a component’s parent while state can be mutated
+and is “owned” by the component itself.
+
+al inicializar en el constructor se debe de poner uno vacio:
+
+	constructor(props) {
+		super(props);
+		this.state = {
+			text: '',
+		};
+	}
+
 
 
 
