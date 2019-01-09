@@ -13,6 +13,7 @@ export default class SearchInput extends React.Component {
 			style={styles.textInput}
 			clearButtonMode="always"
 			/>
+			
 			</View>
 			);
 		}
